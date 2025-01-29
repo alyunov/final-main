@@ -48,7 +48,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: alyunov/final-main
+          images: alpaul/final-main
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
